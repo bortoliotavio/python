@@ -2,7 +2,7 @@ ano = ''
 ano_nascimento = ''
 while ano != 0:
     ano_nascimento = int(input('Digite o ano do seu nascimento:'))
-    if ano_nascimento < 1982:
+    if ano_nascimento < 1988:
         ano = ano_nascimento + 18
     else:
         ano = ano_nascimento + 16
